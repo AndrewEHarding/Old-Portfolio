@@ -1,0 +1,66 @@
+body {
+    background-image: url(./images/frontpagebackground.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+nav {
+    border-bottom: 4px solid gray;
+}
+
+#main-container {
+    margin: 10px auto 50px auto;
+    padding: 15px 25px 5px 25px;
+    border: 1.5px solid rgba(128, 128, 128, 0.85);
+    border-radius: 25;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+footer {
+    border-top: 4px solid gray;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#name-card {
+    box-shadow: 3px 3px 10px black;
+    border-radius: 0%;
+}
+
+#name-card:hover {
+    text-shadow: 3px 3px 3px black;
+}
+
+.card {
+    margin: 5px auto 15px auto;
+    max-width: 288px;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    height: 136px;
+    width: 286px;
+}
+
+.card-img-top {
+    width: 286px;
+    height: 180px;
+}
+
+.row, .col {
+    margin: auto;
+}
